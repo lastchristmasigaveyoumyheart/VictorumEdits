@@ -1,0 +1,41 @@
+#5553 - North Kuban
+
+owner = CIR
+controller = CIR
+add_core = CIR
+culture = circassian
+religion = orthodox
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = horses
+base_manpower = 1 
+capital = "North Kuban"
+is_city = yes
+
+
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+
+
+
+
+
+
+
+
+
+
+1478.6.1 = { add_core = TUR }
+1774.7.21 = {
+	owner = RUS
+	add_core = RUS
+	controller = RUS
+	remove_core = TUR
+	culture = russian
+	religion = orthodox 
+	capital = "Romanovsky Khutor"
+}# Treaty of Kuchuk-Kainarji

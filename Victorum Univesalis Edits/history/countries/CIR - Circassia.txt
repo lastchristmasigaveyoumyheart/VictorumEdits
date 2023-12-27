@@ -1,0 +1,39 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = circassian
+religion = orthodox
+#technology_group = eastern
+technology_group = russian_tech_group
+historical_friend = KBD
+historical_friend = TUR
+capital = 3335 # Circassia
+
+1444.1.1 = {
+	monarch = {
+		name = "Inal the Great"
+		dynasty = "Talhosten"
+		birth_date = 1400.1.30
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Mehmed II Fatih"
+		dynasty = Osmanoglu
+		birth_date = 1432.3.30
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	#add_ruler_personality = lawgiver_personality
+	add_piety = -0.2
+	add_adm_tech = 3
+	add_mil_tech = 3
+}
